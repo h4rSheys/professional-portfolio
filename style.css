@@ -35,7 +35,50 @@ img{
     display: flex;
     width: 100%;
 }
+#homeb{
+    
+    padding: 20px;
+    background-color: #333;
+    border-radius: 19px;
 
+}
+#homeb:hover{
+        background-color: rgb(213, 213, 213);
+        color: black;
+}
+#aboutb{
+    
+    padding: 20px;
+    background-color: #333;
+    border-radius: 19px;
+
+}
+#aboutb:hover{
+        background-color: rgb(213, 213, 213);
+        color: black;
+}
+#portb{
+    
+    padding: 20px;
+    background-color: #333;
+    border-radius: 19px;
+
+}
+#portb:hover{
+        background-color: rgb(213, 213, 213);
+        color: black;
+}
+#contb{
+    
+    padding: 20px;
+    background-color: #333;
+    border-radius: 19px;
+
+}
+#contb:hover{
+        background-color: rgb(213, 213, 213);
+        color: black;
+}
 .sidebar {
     background-color: #333;
     color: white;
@@ -45,7 +88,11 @@ img{
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     border-right: 4px solid #b9b9b9;
 }
-
+#abtme{
+    margin-left: 390px;
+    font-size: 4em;
+    color: black;
+}
 .sidebar ul {
     list-style-type: none;
     padding: 0;
@@ -79,7 +126,11 @@ img{
 }
 
 /* Add your styles for the contact form and other sections as needed */
-
+#help{
+    font-size: 35px;
+    margin-left: 20px;
+    color: black;
+}
 /* Social Media Icons */
 .social-media {
     position: fixed;
@@ -91,6 +142,8 @@ section{
     border-radius: 20px;
     display: grid;
     align-items: center;
+    border: 4px solid white;
+    border-radius: 40px;
 }
 body{
     background-color: black;
