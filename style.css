@@ -34,11 +34,19 @@ body {
     color: #333;
     display: inline-block;
     text-decoration: none;
-    transition: transform 0.3s ease-in-out;
-
+    transition: transform 0.1s ease-in-out;
+    border: #007bb5 2px solid;
+    border-radius: 60px;
+    padding: 20px;
+    background-color: #007bb5;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #ro:hover{
-    transform: scale(1.2)
+    background-color: #333;
+    color: #f4f4f4;
+    transform: scale(1.2);
+    border: 1px solid white;
 }
 #descp{
     font-size: 20px;
