@@ -10,17 +10,45 @@ body {
 #home{
     background-color: rgb(185, 185, 185);
     border: 4px solid #ffffff;
-    margin-top: 40px;
+    margin-top: 0px;
     border-radius: 30px ;
-    margin-top: 130px;
+    margin-top: 30px;
     height: 600px;
-    margin-bottom: 160px;
+    margin-bottom: 60px;
 }
 #name{
     margin-left: 390px;
     font-size:   4em;
     font-family: sans-serif;
     margin-top:  auto;
+}
+#portfolio{
+    background-color: #c5c5c5;
+    
+
+}
+#ro{
+    text-decoration: none;
+    font-size: 3em;
+    margin-left: 9em;
+    color: #333;
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+
+}
+#ro:hover{
+    transform: scale(1.2)
+}
+#descp{
+    font-size: 20px;
+    color: black;
+}
+#projtitle1{
+
+    padding-left: 20px;
+    color: black;
+    font-size: 60px;
 }
 img{
     width: 225px;
@@ -54,7 +82,9 @@ img{
     border-radius: 0px;
     border-bottom: 2px solid #777676;
     border-top: 2px solid #777676;
-    
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
 
 }
 #bxx{
@@ -71,6 +101,7 @@ nav{
 #homeb:hover{
     border-bottom: 2px solid #fdfdfd;
     border-top: 2px solid #ffffff;
+    transform: scale(1.2)
 }
 #aboutb{
     
@@ -82,11 +113,15 @@ nav{
     border-radius: 1px;
     border-bottom: 2px solid #777676;
     border-top: 2px solid #777676;
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
 
 }
 #aboutb:hover{
     border-bottom: 2px solid #fdfdfd;
     border-top: 2px solid #ffffff;
+    transform: scale(1.2)
 }
 #portb{
     
@@ -98,14 +133,19 @@ nav{
     border-radius: 1px;
     border-bottom: 2px solid #777676;
     border-top: 2px solid #777676;
-
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
 }
 #portb:hover{
     border-bottom: 2px solid #fdfdfd;
     border-top: 2px solid #ffffff;
+    transform: scale(1.2)
 }
 #contb{
-    
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
     padding-left: 60px;
     padding-right: 47px;
     padding-top: 20px;
@@ -119,6 +159,7 @@ nav{
 #contb:hover{
     border-bottom: 2px solid #fdfdfd;
     border-top: 2px solid #ffffff;
+    transform: scale(1.2)
 }
 .sidebar {
     background-color: #333;
@@ -213,10 +254,14 @@ body{
     height: 25px;
     width: 25px;
     margin-bottom: 940px;
+
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  
+    transform: scale(1.2)
 }
 #or{
     margin: 10px;
